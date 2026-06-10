@@ -45,4 +45,3 @@ jobs:
             
             echo "Deploy concluído com sucesso!"
 
-            ubuntu ALL=(ALL) NOPASSWD: /bin/cp, /usr/sbin/nginx, /bin/systemctl, /bin/chown, /bin/chmod
