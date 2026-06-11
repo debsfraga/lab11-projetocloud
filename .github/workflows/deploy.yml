@@ -21,7 +21,7 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
-          source: "index.html,nginx.conf"
+          source: "index.html,nginx.conf,Dockerfile"
           target: "/tmp/deploy"
 
       # 3. Executa comandos na EC2 para publicar os arquivos
